@@ -13,7 +13,7 @@ String hobby[] = request.getParameterValues("hobby");
 out.print("당신의  hobby list <br><br>");
 
 for(int i=0; i<hobby.length ; i++){
-	out.print(i + ". " + hobby[i] +"<br>");
+	out.print(i + ". " + hobby[i] +"<br><br>");
 }
 %>
 
